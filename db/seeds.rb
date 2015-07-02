@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# Seed some companies
+load "#{Rails.root}/db/seeds/populate_companies.rb"
+
+# Create ApiKey
+ApiKey.create()
