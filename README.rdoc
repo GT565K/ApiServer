@@ -17,3 +17,8 @@ Start-up
 * rake db:seed to populate db
 
 * use the generated ApiKey with the CURL commands found in scripts/curl_commands.txt for testing
+
+TODO:
+* Add tests
+
+* Create API Client
