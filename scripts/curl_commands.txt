@@ -1,0 +1,15 @@
+# SHOW ALL
+
+curl -i -X GET http://localhost:3000/api/companies -H 'Authorization: Token token="db9ca715ca2ed611b47a0410769e4d98"' --header "Accept: application/json" --header "Content-Type: application/json"
+
+# SHOW ONE
+curl -i -X GET http://localhost:3000/api/companies/6 -H 'Authorization: Token token="db9ca715ca2ed611b47a0410769e4d98"' --header "Accept: application/json" --header "Content-Type: application/json"
+
+# DELETE
+curl -i -X DELETE http://localhost:3000/api/companies/8 -H 'Authorization: Token token="db9ca715ca2ed611b47a0410769e4d98"' --header "Accept: application/json" --header "Content-Type: application/json"
+
+# CREATE
+curl -i -X POST http://localhost:3000/api/companies -d '{"company":{"name": "test name11", "description":"testd", "yen token="db9ca715ca2ed611b47a0410769e4d98"' --header "Accept: application/json" --header "Content-Type: application/json"
+
+# UPDATE
+curl -i -X PUT http://localhost:3000/api/companies/8 -d '{"company":{"name": "test c2", "description":"test new", "year_founded":"2009"} }' -H 'Authorization: Token token="db9ca715ca2ed611b47a0410769e4d98"' --header "Accept: application/json" --header "Content-Type: application/json"
