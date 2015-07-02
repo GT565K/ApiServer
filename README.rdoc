@@ -1,28 +1,19 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Info
 
-* Ruby version
+* Simple RAILS API with REST endpoints for Company resource
 
-* System dependencies
+* No client wrapper for API yet
 
-* Configuration
+Start-up
+* configure database.yml for your local db
+* make sure to use UTF-8 (unicode) encoding
+* rake db:migrate
+* rake db:seed to populate db
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* use the generated ApiKey with the CURL commands found in scripts/curl_commands.txt for testing
 
 
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
