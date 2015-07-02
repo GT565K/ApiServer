@@ -12,6 +12,8 @@ Start-up
 
 * make sure to use UTF-8 (unicode) encoding
 
+* bundle install
+
 * rake db:migrate
 
 * rake db:seed to populate db
