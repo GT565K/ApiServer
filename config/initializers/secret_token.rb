@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-PGiServerAPI::Application.config.secret_key_base = 'ce1ae7d87302f66bccd9d164372e627581c3a7e7bd712e004ed17eb1e4417d727c60cce1220cde6b969edf6e395ed46dcb1da11dd0291f9043a569e1533d65b3'
+ApiServer::Application.config.secret_key_base = 'ce1ae7d87302f66bccd9d164372e627581c3a7e7bd712e004ed17eb1e4417d727c60cce1220cde6b969edf6e395ed46dcb1da11dd0291f9043a569e1533d65b3'

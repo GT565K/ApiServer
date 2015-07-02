@@ -1,4 +1,4 @@
-PGiServerAPI::Application.routes.draw do
+ApiServer::Application.routes.draw do
   
   get "/404" => "errors#not_found"
   get "/500" => "errors#exception"

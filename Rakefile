@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-PGiServerAPI::Application.load_tasks
+ApiServer::Application.load_tasks
